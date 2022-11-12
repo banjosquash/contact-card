@@ -69,3 +69,12 @@ window.addEventListener('load', function () {
      // Reload the DOM
      fetchCards();
    })
+
+   window.deleteCard = (potato) => {
+    // grabs id from buttonEl attached to card
+    let id = parseInt(potato.id);
+    // Delete the card
+    deleteDb(id);
+    // Reload the DOM
+    fetchCards();
+    };
