@@ -5,14 +5,12 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server",
     "start": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
@@ -25,8 +23,6 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",
     "build": "^0.1.4",
-    "idb": "^7.1.1",
-    "npm": "^9.1.1",
-    "run": "^1.4.0"
+    "idb": "^7.1.1"
   }
 }
